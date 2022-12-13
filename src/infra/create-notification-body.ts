@@ -8,7 +8,7 @@ export class CreateNotificationBody {
   @IsNotEmpty()
   @Length(5, 240)
   content: string;
-  s;
+
   @IsNotEmpty()
   category: string;
 }
